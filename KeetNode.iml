@@ -41,12 +41,14 @@
       <library name="Grails User Library (KeetNode)">
         <CLASSES>
           <root url="file://$MODULE_DIR$/lib" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/xml-apis/xml-apis/jars/xml-apis-1.0.b2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
         <jarDirectory url="file://$MODULE_DIR$/lib" recursive="false" />
       </library>
     </orderEntry>
+    <orderEntry type="module" module-name="KeetNode-grailsPlugins" />
   </component>
 </module>
 
