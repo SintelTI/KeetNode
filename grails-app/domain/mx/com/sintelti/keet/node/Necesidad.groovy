@@ -15,5 +15,10 @@ class Necesidad {
     static hasMany = [datosRecepcion: Datos]
 
     static constraints = {
+        titulo                  blank: false, size:5...40
+        descripcion             blank: false
+        sistemaOrigen           blank: false
+        sistemaDestino          blank: false
+        
     }
 }

@@ -6,7 +6,9 @@ class Datos {
     String tipoDato
     String formato
     String detalle
+    String tabla
 
     static constraints = {
+        nombre(blank:false)
     }
 }
