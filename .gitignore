@@ -24,3 +24,4 @@
 *.ipr
 *.iws
 .idea
+.idea/*
