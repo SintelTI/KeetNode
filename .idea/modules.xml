@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/KeetNode.iml" filepath="$PROJECT_DIR$/KeetNode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KeetNode-grailsPlugins.iml" filepath="$PROJECT_DIR$/KeetNode-grailsPlugins.iml" />
     </modules>
   </component>
 </project>
