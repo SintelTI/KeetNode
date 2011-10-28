@@ -11,11 +11,10 @@ class Necesidad {
     boolean isConversacion
     Sistema sistemaConversacion
     Necesidad necesidadAnterior
-    static hasMany = [datosEnvio: Datos]
-    static hasMany = [datosRecepcion: Datos]
+    static hasMany = [datosEnvio: Datos, datosRecepcion: Datos]
 
     static constraints = {
-        titulo                  blank: false, size:5...40
+        titulo                  blank: false, size:5..40
         descripcion             blank: false
         sistemaOrigen           blank: false
         sistemaDestino          blank: false
