@@ -20,7 +20,7 @@
 .settings
 
 # Archivos de IntelliJ IDEA #
-# *.iml
-# *.ipr
-# *.iws
-# .idea
+*.iml
+*.ipr
+*.iws
+.idea
